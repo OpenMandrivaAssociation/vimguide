@@ -10,7 +10,6 @@ License:	OpenSource
 URL:		ftp://ftp.vim.org/pub/vim/doc/
 Source0:	ftp://ftp.vim.org/pub/vim/doc/%{name}-%{version}.tar.bz2
 BuildArch:	noarch
-BuildRoot:	%{_tmppath}/%{name}-%{version}-root
 
 %description
 This is a command and feature reference guide to VIM 5.6 but can also be used
