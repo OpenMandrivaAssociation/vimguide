@@ -4,7 +4,7 @@
 Summary:	Vim editor reference guide
 Name:		vimguide
 Version:	0.7
-Release:	%mkrel 11
+Release:	%mkrel 14
 Group:		Books/Other
 License:	OpenSource
 URL:		ftp://ftp.vim.org/pub/vim/doc/
@@ -38,4 +38,46 @@ rm -rf %{buildroot}
 %defattr(-,root,root)
 %doc * 
 
+
+
+
+%changelog
+* Fri May 06 2011 Oden Eriksson <oeriksson@mandriva.com> 0.7-11mdv2011.0
++ Revision: 670767
+- mass rebuild
+
+* Sat Dec 04 2010 Oden Eriksson <oeriksson@mandriva.com> 0.7-10mdv2011.0
++ Revision: 608125
+- rebuild
+
+* Wed Mar 17 2010 Oden Eriksson <oeriksson@mandriva.com> 0.7-9mdv2010.1
++ Revision: 524309
+- rebuilt for 2010.1
+
+* Thu Sep 03 2009 Christophe Fergeau <cfergeau@mandriva.com> 0.7-8mdv2010.0
++ Revision: 427494
+- rebuild
+
+* Wed Jun 18 2008 Thierry Vignaud <tv@mandriva.org> 0.7-7mdv2009.0
++ Revision: 225918
+- rebuild
+
+* Wed Mar 05 2008 Oden Eriksson <oeriksson@mandriva.com> 0.7-6mdv2008.1
++ Revision: 179680
+- rebuild
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+
+* Fri Mar 16 2007 Oden Eriksson <oeriksson@mandriva.com> 0.7-5mdv2007.1
++ Revision: 145174
+- Import vimguide
+
+* Fri Mar 16 2007 Oden Eriksson <oeriksson@mandriva.com> 0.7-5mdv2007.1
+- use the %%mrel macro
+- it's a noarch package
 
