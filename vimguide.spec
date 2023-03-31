@@ -4,7 +4,7 @@
 Summary:	Vim editor reference guide
 Name:		vimguide
 Version:	0.7
-Release:	24
+Release:	25
 Group:		Books/Other
 License:	OpenSource
 URL:		ftp://ftp.vim.org/pub/vim/doc/
